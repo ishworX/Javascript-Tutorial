@@ -1,3 +1,33 @@
-#welcome {
-    background-color: green;
+#box-1 {
+    background-color: pink;
+    /* border-width: 3px;
+    border-color: red;
+    border-style: solid; */
+    border: 3px solid red;
+    border-radius: 10px;
 }
+
+#box-2 {
+    background: cyan;
+    color: white;
+    border: blue solid 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#box-3 {
+    background-image: url(/img/banner.gif);
+    color: white;
+    height: 200px;
+    width: 650px;
+    /* background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; */
+    background: url('/img/banner.gif' no-repeat center center/cover);
+}
+
+#box-4 {
+    background: url(/img/logo.png) no-repeat center center;
+    background-attachment: fixed;
+}
+
