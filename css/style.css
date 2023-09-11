@@ -1,6 +1,21 @@
 * {
     box-sizing: border-box;
 }
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
 .container {
     max-width: 960px;
     margin: auto;
