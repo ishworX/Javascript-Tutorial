@@ -16,6 +16,15 @@ a:active {
     color: red;
 }
 
+.btn {
+    background: #4c6ca0;
+    color: aquamarine;
+    border: none;
+    font-size: 16px;
+    padding: 10 20;
+    border-radius: 5px;
+
+}
 .container {
     max-width: 960px;
     margin: auto;
