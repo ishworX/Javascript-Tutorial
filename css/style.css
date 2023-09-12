@@ -18,13 +18,18 @@ a:active {
 
 .btn {
     background: #4c6ca0;
-    color: aquamarine;
+    color: white;
     border: none;
     font-size: 16px;
     padding: 10 20;
-    border-radius: 5px;
-
+    border-radius: 5px; 
+    cursor: pointer;
 }
+
+.btn:hover {
+    background: brown;
+}
+
 .container {
     max-width: 960px;
     margin: auto;
