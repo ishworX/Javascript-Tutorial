@@ -1,135 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Form Styling</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the most extraordinary hotel">
+  <title>Hotel Bt Welcome</title>
 
-      body {
-        background: #344a72;
-        font-family: 'Raleway', sans-serif;
-        line-height: 1.8; 
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      #container {
-        margin: 30px auto;
-        max-width: 400px;
-        padding: 20px;
-      }
-
-      .form-wrap {
-        background: white;
-        color: #333;
-        padding: 15px 25px;
-      }
-
-      .form-wrap h1,
-      .form-wrap p {
-        text-align: center;
-      }
-
-      .form-wrap .form-group {
-        margin-top: 10px;
-      }
-
-      .form-wrap .form-group label {
-        display: block;
-        color: #666;
-      }
-
-      .form-wrap .form-group input {
-        padding: 10px;
-        border: #ddd 1px solid;
-        border-radius: 3px;
-        width: 100%;
-        color: #666;
-      }
-
-      .form-wrap button {
-        display: block;
-        color: white;
-        background: #49c1a2;
-        border: #666 1px solid;
-        margin-top: 10px;
-        padding: 10px;
-        width: 100%;
-        cursor: pointer;
-      }
-
-      .form-wrap button:hover {
-        background: #37a08e;
-      }
-
-      .form-wrap .bottom-text {
-        font-size: 13;
-        text-align: center;
-        margin-top: 20px;
-      }
-
-      footer {
-      text-align: center;
-      color: white;
-      margin-top: 10px;
-      }
-
-      footer a {
-        color:  #49c1a2;
-      }
-
-  </style>
-  </head>
-  <body>
-    <div id="container">
-      <div class="form-wrap">
-        <h1>Sign Up</h1>
-        <p>It's free and only takes a minute</p>
-        <form>
-          <div class="form-group">
-            <label for="first-name">First Name</label>
-            <input type="text" name="firstName" id="first-name" />
-          </div>
-          <div class="form-group">
-            <label for="last-name">Last Name</label>
-            <input type="text" name="lastName" id="last-name" />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" />
-          </div>
-          <div class="form-group">
-            <label for="password2">Confirm Password</label>
-            <input type="password" name="pasword2" id="password2" />
-          </div>
-          <button type="submit" class="btn">Sign Up</button>
-          <p class="bottom-text">
-            By clicking the Sign Up button, you agree to our
-            <a href="#">Terms & Conditions</a> and
-            <a href="#">Privacy Policy</a>
-          </p>
-        </form>
+  <!-- Important links and stuff! -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo"> <a href="index.html"> HBT </a> </h1>
+        <ul>
+          <li> <a class="current" href="index.html"> Home </a></li>
+          <li> <a href="about.html"> About </a></li>
+          <li> <a href="contact.html"> Contact </a></li>
+        </ul>
       </div>
-      <footer>
-        <p>Already have an account? <a href="#">Login Here</a></p>
-      </footer>
+    </nav>
+
+    <div id="showcase">
+      <div class="container">
+        <div class="showcase-content">
+          <h1> <span class="text-primary"> Enjoy </span> Your Stay</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
+            quod, quaerat, quasi, quidem, quibusdam, quod, quaerat, quasi,
+            quidem, quibusdam. 
+          </p>
+            <a class="btn" href="about.html"> About Our Hotel </a>
+        </div>
+      </div>
     </div>
-  </body>
+  </header>
+
+  <section id="home-info" class="bg-dark">
+    <div class="info-img"></div>
+    <div class="info-conetnt">
+      <h2><span class="text-primary">The History</span> OF Our Hotel </h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere at ipsa
+        ex repudiandae aperiam voluptates aspernatur! Quam, vero, error quis
+        magnam cumque eveniet dolor unde doloremque, possimus ipsum
+        reprehenderit quaerat ea ullam corrupti. Maiores porro consequuntur rem
+        aliquam magni?
+      </p>
+      <a href="about.html" class="btn btn-light"> Read More</a>
+    </div>
+  </section>
+  
+</body>
 </html>
